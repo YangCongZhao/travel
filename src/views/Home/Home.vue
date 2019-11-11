@@ -1,0 +1,22 @@
+<template>
+    <div class="Home">
+      <Header></Header>
+    </div>
+</template>
+<script>
+import Header from './components/Header'
+export default {
+  data () {
+    return {
+
+    }
+  },
+  components: {
+    Header
+  }
+
+}
+</script>
+<style lang="less" scoped>
+
+</style>
