@@ -3,12 +3,16 @@
       <Header></Header>
       <Swiper></Swiper>
       <icons></icons>
+      <recommend></recommend>
+      <Weekend></Weekend>
     </div>
 </template>
 <script>
 import Header from './components/Header'
 import Swiper from '../../components/Swiper'
 import icons from '../../components/icons'
+import recommend from '../../components/recommend'
+import Weekend from '../../components/Weekend'
 export default {
   data () {
     return {
@@ -16,7 +20,7 @@ export default {
     }
   },
   components: {
-    Header, Swiper, icons
+    Header, Swiper, icons, recommend, Weekend
   }
 
 }
