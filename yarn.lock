@@ -2648,9 +2648,9 @@ decamelize@^1.2.0:
   integrity sha1-9lNNFRSCabIDUue+4m9QH5oZEpA=
 
 decode-uri-component@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.npm.taobao.org/decode-uri-component/download/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
-  integrity sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.2.tgz#e69dbe25d37941171dd540e024c444cd5188e1e9"
+  integrity sha512-FqUYQ+8o158GyGTrMFJms9qh3CqTKvAqgqsTnkLI8sKu0028orqBhxNMFkFen0zGyg6epACD32pjVk58ngIErQ==
 
 deep-equal@^1.0.1:
   version "1.1.0"
@@ -3455,6 +3455,11 @@ fast-levenshtein@~2.0.6:
   version "2.0.6"
   resolved "https://registry.npm.taobao.org/fast-levenshtein/download/fast-levenshtein-2.0.6.tgz#3d8a5c66883a16a30ca8643e851f19baa7797917"
   integrity sha1-PYpcZog6FqMMqGQ+hR8Zuqd5eRc=
+
+fastclick@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.npmmirror.com/fastclick/-/fastclick-1.0.6.tgz#161625b27b1a5806405936bda9a2c1926d06be6a"
+  integrity sha512-cXyDBT4g0uWl/Xe75QspBDAgAWQ0lkPi/zgp6YFEUHj6WV6VIZl7R6TiDZhdOVU3W4ehp/8tG61Jev1jit+ztQ==
 
 faye-websocket@^0.10.0:
   version "0.10.0"
@@ -7608,6 +7613,11 @@ svgo@^1.0.0:
     unquote "~1.1.1"
     util.promisify "~1.0.0"
 
+swiper@^3.4.2:
+  version "3.4.2"
+  resolved "https://registry.npmmirror.com/swiper/-/swiper-3.4.2.tgz#39d6b410b1a39833e1f72d3b72999df5f5e38392"
+  integrity sha512-bXolyzBIawQRluQwFbN8DYpe6Q02bKJ2/h4JV+6dzN/WX8a8ZFPa+F0o8z7hEHSyh2NzKkTWaogaTZYVfgmKTw==
+
 table@^5.2.3:
   version "5.4.6"
   resolved "https://registry.npm.taobao.org/table/download/table-5.4.6.tgz#1292d19500ce3f86053b05f0e8e7e4a3bb21079e"
@@ -8065,6 +8075,13 @@ vm-browserify@^1.0.1:
   version "1.1.2"
   resolved "https://registry.npm.taobao.org/vm-browserify/download/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha1-eGQcSIuObKkadfUR56OzKobl3aA=
+
+vue-awesome-swiper@^2.6.7:
+  version "2.6.7"
+  resolved "https://registry.npmmirror.com/vue-awesome-swiper/-/vue-awesome-swiper-2.6.7.tgz#23b12cf107503305c267df3c7c2903fb39896cd0"
+  integrity sha512-kUmCds5HTcV9Uz0eYnvajbxpVgAKQFrX0r+akk8XtuUouI5e2ImhO7aZ8iVhTLE4hwKwoyFP8jekAa0JlNqifA==
+  dependencies:
+    swiper "^3.4.2"
 
 vue-eslint-parser@^5.0.0:
   version "5.0.0"
